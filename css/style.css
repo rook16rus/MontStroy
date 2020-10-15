@@ -1,0 +1,232 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+    opacity: 0.77;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.section-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 30px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-light {
+    background: #00ffd7;
+    color: black;
+}
+
+.button-transparent {
+    border: 1px solid #97fff4;
+    color: white;
+}
+
+.button-dark {
+    background: #303030;
+    color: white;
+}
+
+.button:hover {
+    box-shadow: 0 2px 6.3px 0.7px rgba(0, 255, 215, 0.65);
+}
+
+.button-dark:hover {
+    box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.main-nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 20px 0;
+}
+
+.header-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+    margin: 0 auto 0 58px;
+    padding: 0;
+}
+
+.header-menu-item {
+    margin-right: 20px;
+}
+
+.header-menu-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #707070;
+}
+
+.header-menu-item a:hover {
+    color: black;
+}
+
+.phone {
+    margin-right: 20px;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1c1c1c;
+}
+
+.promo {
+    padding-top: 170px;
+    padding-bottom: 80px;
+    background: url("../img/promo-bg.jpg") no-repeat -35px -90px;
+}
+
+.promo-title {
+    margin: 0 0 40px 0;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.promo-text {
+    margin: 40px 0 50px 0;
+    max-width: 1015px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: white;
+}
+
+.promo-text span {
+    color: #00ffd8;
+}
+
+.button-wrapper {
+    display: flex;
+    margin-bottom: 120px;
+    width: 620px;
+}
+
+.button-wrapper .button {
+    flex-grow: 1;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.features-list {
+    display: flex;
+    align-items: flex-start;
+
+    list-style: none;
+    margin: 0 -40px 0 0;
+    padding: 0;
+    height: 255px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+    padding: 0;
+    margin-right: 40px;
+
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+
+    position: relative;
+}
+
+.features-item:nth-of-type(even) {
+    align-self: flex-end;
+}
+
+.features-item::before {
+    content: "";
+
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-bottom: 25px;
+}
+
+.features-item-quality::before {
+    background: url("../img/like.svg") no-repeat center;
+    width: 74px;
+    height: 49px;
+}
+
+.features-item-service::before {
+    background: url("../img/wide.svg") no-repeat center;
+    width: 52px;
+    height: 64px;
+}
+
+.features-item-responsibility::before {
+    background: url("../img/handshake.svg") no-repeat center;
+    width: 74px;
+    height: 49px;
+}
+
+.features-item-territory::before {
+    background: url("../img/russia.svg") no-repeat center;
+    width: 64px;
+    height: 64px;
+}
+
+.features-item-base::before {
+    background: url("../img/settings.svg") no-repeat center;
+    width: 70px;
+    height: 49px;
+}
