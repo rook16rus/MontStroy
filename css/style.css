@@ -34,7 +34,7 @@ body {
     text-transform: uppercase;
 }
 
-.services-title::after, .projects-title::after {
+.services-title::after, .projects-title::after, .partners-header::after {
     content: "";
 
     position: absolute;
@@ -160,13 +160,13 @@ body {
     color: #00ffd8;
 }
 
-.button-wrapper {
+.promo .button-wrapper {
     display: flex;
     margin-bottom: 120px;
     width: 620px;
 }
 
-.button-wrapper .button {
+.promo .button-wrapper .button {
     flex-grow: 1;
     text-transform: uppercase;
     margin-right: 20px;
@@ -383,4 +383,100 @@ body {
     background: #00ffd7 url("../img/arrow-dark.png") no-repeat center;
 }
 
-.enter-button:hover
+.partners {
+    padding-bottom: 125px;
+}
+
+.partners-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+
+    margin-bottom: 5%;
+}
+
+.partners-header::after {
+    width: 55%;
+    margin-right: 155px;
+}
+
+.partners-title {
+    margin: 0;
+}
+
+.partners-header .button-wrapper {
+    display: flex;
+
+    width: 116px;
+    height: 34px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.partners-header .button-wrapper button {
+    background: white;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 0;
+
+    position: relative;
+}
+
+.partners-header .button-wrapper button:first-child {
+    background: url("../img/arrow-left.png") no-repeat center;
+
+}
+
+.partners-header .button-wrapper button:first-child:hover {
+    background-color: #b2fff3;
+}
+
+.partners-header .button-wrapper button:first-child:hover:after {
+    content: "";
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 10px;
+    border: 1px solid black;
+}
+
+
+.partners-header .button-wrapper button:last-child {
+    background: url("../img/arrow-right.png") no-repeat center;
+}
+
+.partners-header .button-wrapper button:last-child:hover {
+    background-color: #b2fff3;
+}
+
+
+.partners-header .button-wrapper button:last-child:hover:after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 10px;
+    border: 1px solid black;
+}
+
+.partners-list {
+    display: flex;
+
+    list-style: none;
+    margin: 0 -30px 0 0;
+    padding: 0;
+}
+
+.partners-item {
+    width: 270px;
+    margin-right: 30px;
+}
