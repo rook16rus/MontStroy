@@ -34,6 +34,18 @@ body {
     text-transform: uppercase;
 }
 
+.services-title::after, .projects-title::after {
+    content: "";
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 70%;
+    border: 1px solid black;
+}
+
 .button {
     display: inline-block;
     padding: 5px 30px;
@@ -241,18 +253,6 @@ body {
     position: relative;
 }
 
-.services-title::after {
-    content: "";
-
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-
-    width: 70%;
-    border: 1px solid black;
-}
-
 .services-list {
     display: flex;
     flex-wrap: wrap;
@@ -299,3 +299,88 @@ body {
 .services-links-item a:hover {
     text-decoration: underline;
 }
+
+.projects {
+    padding-bottom: 120px;
+}
+
+.projects-title {
+    margin: 0 0 40px 0;
+    position: relative;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+    margin: 0 -4px 0 0;
+    padding: 0;
+}
+
+.projects-item {
+    position: relative;
+
+    width: 290px;
+    height: 290px;
+    padding: 25px 20px 25px 30px;
+    box-sizing: border-box;
+    margin: 0 3px 4px 0;
+}
+
+.projects-item-big {
+    width: 583px;
+}
+
+.projects-item-big .projects-item-text {
+    max-width: 470px;
+}
+
+.projects-item-medium {
+    width: 388px;
+}
+
+.projects-item-medium .projects-item-text {
+    max-width: 290px;
+}
+
+.projects-item img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.projects-item-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: normal;
+    color: white;
+}
+
+.projects-item-text {
+    color: white;
+    opacity: 0.66;
+}
+
+.enter-button {
+    position: absolute;
+    right: 11px;
+    bottom: 11px;
+
+    width: 46px;
+    height: 34px;
+    border: 2px solid #6b6f6f;
+    box-sizing: border-box;
+
+    background: url("../img/arrow.png") no-repeat center;
+
+    font-size: 0;
+}
+
+.enter-button:hover {
+    border-color: #57ffe5;
+    background: #00ffd7 url("../img/arrow-dark.png") no-repeat center;
+}
+
+.enter-button:hover
