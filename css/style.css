@@ -71,6 +71,8 @@ body {
 .button-dark {
     background: #303030;
     color: white;
+    border: none;
+    outline: none;
 }
 
 .button:hover {
@@ -476,7 +478,237 @@ body {
     padding: 0;
 }
 
+.main-footer {
+    background: #000000;
+    padding-bottom: 45px;
+}
+
 .partners-item {
     width: 270px;
     margin-right: 30px;
+}
+
+.footer-navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name-column {
+    display: flex;
+    flex-direction: column;
+
+    width: 220px;
+    padding-top: 25px;
+}
+
+.company-name {
+    font-size: 16px;
+    line-height: 38px;
+    color: white;
+
+    margin: 20px 0 50px 0;
+}
+
+.socials-list {
+    display: flex;
+
+    list-style: none;
+    margin: 0 -30px 0 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.socials-item {
+    margin-right: 30px;
+}
+
+.socials-vk {
+    width: 35px;
+    height: 21px;
+    background: url("../img/vk.png") no-repeat center;
+}
+
+.socials-tw {
+    width: 27px;
+    height: 22px;
+    background: url("../img/tw.png") no-repeat center;
+}
+
+.socials-fb {
+    width: 14px;
+    height: 26px;
+    background: url("../img/fb.png") no-repeat center;
+}
+
+
+.feedback-form-column {
+    display: flex;
+    flex-direction: column;
+
+    margin: -195px 95px 0 95px;
+    padding: 50px 105px 35px 70px;
+    background: white;
+}
+
+.feedback-title {
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.feedback-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.feedback-wrapper .feedback-group {
+    width: 40%;
+}
+
+.feedback-group {
+    display: flex;
+    flex-direction: column;
+
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+ }
+
+.feedback-form label {
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: black;
+}
+
+.feedback-form input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.feedback-text {
+    font-size: 12px;
+    line-height: 18px;
+    color: black;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.feedback-text span {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.feedback-form .button-wrapper {
+    text-align: center;
+}
+
+.feedback-form .button {
+    margin-top: 25px;
+}
+
+.contacts-column {
+    display: flex;
+    flex-direction: column;
+
+    width: 220px;
+    padding-top: 25px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.place {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+
+    margin-bottom: 45px;
+
+    position: relative;
+}
+
+.place::before {
+    content: "";
+
+    position: absolute;
+    top: 5px;
+    left: -28px;
+
+    width: 12px;
+    height: 15px;
+    background: url("../img/locate-icon.png") no-repeat center;
+}
+
+.email {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+
+    margin-bottom: 45px;
+
+    position: relative;
+}
+
+.email::before {
+    content: "";
+
+    position: absolute;
+    top: 5px;
+    left: -30px;
+
+    width: 16px;
+    height: 11px;
+    background: url("../img/letter-icon.png") no-repeat center;
+}
+
+.phone-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.phone-wrapper::before {
+    content: "";
+
+    position: absolute;
+    top: 5px;
+    left: -30px;
+
+    width: 13px;
+    height: 13px;
+    background: url("../img/phone-icon.png") no-repeat center;
+}
+
+.phone-wrapper .phone {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.phone-wrapper p {
+    font-size: 13px;
+    color: white;
+    opacity: 0.6;
+    margin: 0;
+}
+
+.copyright {
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: white;
+    opacity: 0.25;
+    text-align: center;
+
+    margin: 80px 0 0 0;
 }

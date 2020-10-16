@@ -206,7 +206,7 @@
 
     <footer class="main-footer">
         <div class="footer-map-row">
-            <img src="img/map.png" width="1920" height="807" alt="Карта местности">
+            <img src="img/map.png" width="100%" height="807" alt="Карта местности">
         </div>
         <div class="footer-navigation-row">
             <div class="container">
@@ -222,9 +222,9 @@
                             <li class="socials-item socials-fb"><a href="#">Facebook</a></li>
                         </ul>
                     </div>
-                    <div class="feeback-form-column">
+                    <div class="feedback-form-column">
                         <p class="feedback-title">Свяжитесь с нами</p>
-                        <form method="post">
+                        <form class="feedback-form" method="post">
                             <div class="feedback-wrapper">
                                 <fieldset class="feedback-group">
                                     <label for="feedback-name">Имя</label>
@@ -243,13 +243,15 @@
                                 <label for="feedback-message">Сообщение</label>
                                 <input type="text" name="feedback-message" id="feedback-message">
                             </fieldset>
-                            <p class="feedback-text">Заполняя форму на сайте, вы соглашаетесь с нашей Политикой конфиденциальности</p>
-                            <button type="button" class="button button-dark">Отправить</button>
+                            <p class="feedback-text">Заполняя форму на сайте, вы соглашаетесь с нашей <br><span>Политикой конфиденциальности</span></p>
+                            <div class="button-wrapper">
+                                <button type="button" class="button button-dark">Отправить</button>
+                            </div>
                         </form>
                     </div>
                     <div class="contacts-column">
                         <p class="place">Варшавское шоссе, д, 118, к.1 Бизнес-центр «ВАРШАВКА Sky»</p>
-                        <a href="mailto:zao@montstroy.ru" class="mail">zao@montstroy.ru</a>
+                        <a class="email" href="mailto:zao@montstroy.ru" class="mail">zao@montstroy.ru</a>
                         <div class="phone-wrapper">
                             <a href="tel:84954526723" class="phone">+7 (495) 452-67-23</a>
                             <p>Ежедневно с 9:00 до 18:00</p>
