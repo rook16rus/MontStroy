@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e5ae91-4cf1-46f7-9234-d32d97f3c695" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <workItem from="1603370086023" duration="615000" />
       <workItem from="1603479261006" duration="3559000" />
       <workItem from="1603529791842" duration="662000" />
-      <workItem from="1642744277607" duration="20655000" />
+      <workItem from="1642744277607" duration="21061000" />
     </task>
     <task id="LOCAL-00001" summary="Разметка лендинга готова">
       <created>1602439877105</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642775731379</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Обновил папку dist">
+      <created>1642775999112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642775999112</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +200,7 @@
     <MESSAGE value="Реализовал адаптив для блока с услугами" />
     <MESSAGE value="Добавил папку dist" />
     <MESSAGE value="Реализовал адаптив к блоку с проектами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализовал адаптив к блоку с проектами" />
+    <MESSAGE value="Обновил папку dist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновил папку dist" />
   </component>
 </project>
