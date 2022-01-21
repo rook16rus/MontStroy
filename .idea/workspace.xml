@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88e5ae91-4cf1-46f7-9234-d32d97f3c695" name="Default Changelist" comment="Стилизация футера">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/brand-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brand-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/brand-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brand-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/brand-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brand-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/brand-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brand-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/handshake.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/handshake.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/letter-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/letter-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/like.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/like.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/locate-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/locate-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/phone-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/phone-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project-9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promo-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/promo-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/russia.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/russia.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/settings.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/twitter-logo-silhouette.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/twitter-logo-silhouette.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vk-social-logotype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/vk-social-logotype.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wide.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/wide.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    <list default="true" id="88e5ae91-4cf1-46f7-9234-d32d97f3c695" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kamal\OneDrive\Рабочий стол\Макеты\Flex\case-07" />
       <recent name="C:\Users\kamal\OneDrive\Рабочий стол\Макеты\Flex\case-07\src" />
     </key>
   </component>
@@ -121,7 +93,7 @@
       <workItem from="1603370086023" duration="615000" />
       <workItem from="1603479261006" duration="3559000" />
       <workItem from="1603529791842" duration="662000" />
-      <workItem from="1642744277607" duration="12017000" />
+      <workItem from="1642744277607" duration="14240000" />
     </task>
     <task id="LOCAL-00001" summary="Разметка лендинга готова">
       <created>1602439877105</created>
@@ -165,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602859135879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Реализовал адаптив для шапки и промо блока">
+      <created>1642760565692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642760565692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +170,7 @@
     <MESSAGE value="Стилизация блока с проектами" />
     <MESSAGE value="Стилизация блока с партнерами" />
     <MESSAGE value="Стилизация футера" />
-    <option name="LAST_COMMIT_MESSAGE" value="Стилизация футера" />
+    <MESSAGE value="Реализовал адаптив для шапки и промо блока" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализовал адаптив для шапки и промо блока" />
   </component>
 </project>
