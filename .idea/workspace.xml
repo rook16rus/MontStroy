@@ -94,7 +94,8 @@
       <workItem from="1603479261006" duration="3559000" />
       <workItem from="1603529791842" duration="662000" />
       <workItem from="1642744277607" duration="21960000" />
-      <workItem from="1642874172811" duration="1077000" />
+      <workItem from="1642874172811" duration="1812000" />
+      <workItem from="1642920099093" duration="2811000" />
     </task>
     <task id="LOCAL-00001" summary="Разметка лендинга готова">
       <created>1602439877105</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642776449245</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Адаптировал блок с партнерами">
+      <created>1642875465817</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642875465817</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +220,7 @@
     <MESSAGE value="Реализовал адаптив к блоку с проектами" />
     <MESSAGE value="Обновил папку dist" />
     <MESSAGE value="Исправил убрал размеры фотографий в разметке" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил убрал размеры фотографий в разметке" />
+    <MESSAGE value="Адаптировал блок с партнерами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Адаптировал блок с партнерами" />
   </component>
 </project>

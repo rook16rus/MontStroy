@@ -771,11 +771,6 @@ body {
   }
 }
 
-.main-footer {
-  background: #000000;
-  padding-bottom: 45px;
-}
-
 .partners-item {
   width: calc(25% - 22.5px);
 }
@@ -804,9 +799,27 @@ body {
   }
 }
 
+.main-footer {
+  background: #000000;
+  padding-bottom: 45px;
+}
+
+.footer-map-row img {
+  display: block;
+  min-height: 400px;
+  object-fit: cover;
+}
+
 .footer-navigation-wrapper {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 1060px) {
+  .footer-navigation-wrapper {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .company-name-column {
@@ -863,6 +876,13 @@ body {
   padding: 50px 105px 35px 70px;
   background: white;
 }
+@media (max-width: 1060px) {
+  .feedback-form-column {
+    order: -1;
+    margin: 40px 0 0;
+    padding: 20px 20px 15px;
+  }
+}
 
 .feedback-title {
   font-weight: 900;
@@ -873,15 +893,41 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+@media (max-width: 600px) {
+  .feedback-title {
+    font-size: 22px;
+  }
+}
+@media (max-width: 460px) {
+  .feedback-title {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 350px) {
+  .feedback-title {
+    font-size: 16px;
+  }
+}
 
 .feedback-wrapper {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+@media (max-width: 400px) {
+  .feedback-wrapper {
+    flex-direction: column;
+  }
+}
 
 .feedback-wrapper .feedback-group {
   width: 40%;
+}
+@media (max-width: 400px) {
+  .feedback-wrapper .feedback-group {
+    width: 100%;
+  }
 }
 
 .feedback-group {
@@ -891,11 +937,26 @@ body {
   outline: none;
   margin-bottom: 25px;
 }
+@media (max-width: 600px) {
+  .feedback-group {
+    margin-bottom: 15px;
+  }
+}
 
 .feedback-form label {
   font-size: 20px;
   letter-spacing: 0.04em;
   color: black;
+}
+@media (max-width: 600px) {
+  .feedback-form label {
+    font-size: 16px;
+  }
+}
+@media (max-width: 350px) {
+  .feedback-form label {
+    font-size: 14px;
+  }
 }
 
 .feedback-form input {
@@ -906,6 +967,16 @@ body {
   margin-top: 20px;
   font-size: 16px;
 }
+@media (max-width: 600px) {
+  .feedback-form input {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 350px) {
+  .feedback-form input {
+    margin-top: 0;
+  }
+}
 
 .feedback-text {
   font-size: 12px;
@@ -913,6 +984,11 @@ body {
   color: black;
   opacity: 0.5;
   text-align: center;
+}
+@media (max-width: 600px) {
+  .feedback-text {
+    font-size: 10px;
+  }
 }
 
 .feedback-text span {
@@ -926,6 +1002,12 @@ body {
 
 .feedback-form .button {
   margin-top: 25px;
+}
+@media (max-width: 600px) {
+  .feedback-form .button {
+    font-size: 14px;
+    line-height: 2.3;
+  }
 }
 
 .contacts-column {
@@ -1009,4 +1091,9 @@ body {
   opacity: 0.25;
   text-align: center;
   margin: 80px 0 0 0;
+}
+@media (max-width: 1060px) {
+  .copyright {
+    margin-top: 40px;
+  }
 }

@@ -774,11 +774,6 @@ body {
     }
 }
 
-.main-footer {
-    background: #000000;
-    padding-bottom: 45px;
-}
-
 .partners-item {
     width: calc(100% / 4 - 22.5px);
 
@@ -804,9 +799,26 @@ body {
     }
 }
 
+.main-footer {
+    background: #000000;
+    padding-bottom: 45px;
+}
+
+.footer-map-row img {
+    display: block;
+    min-height: 400px;
+    object-fit: cover;
+}
+
 .footer-navigation-wrapper {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1060px) {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .company-name-column {
@@ -867,6 +879,12 @@ body {
     margin: -195px 95px 0 95px;
     padding: 50px 105px 35px 70px;
     background: white;
+
+    @media (max-width: 1060px) {
+        order: -1;
+        margin: 40px 0 0;
+        padding: 20px 20px 15px;
+    }
 }
 
 .feedback-title {
@@ -878,6 +896,19 @@ body {
     text-align: center;
 
     margin-bottom: 50px;
+
+    @media (max-width: 600px) {
+        font-size: 22px;
+    }
+
+    @media (max-width: 460px) {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    @media (max-width: 350px) {
+        font-size: 16px;
+    }
 }
 
 .feedback-wrapper {
@@ -885,10 +916,18 @@ body {
     justify-content: space-between;
 
     width: 100%;
+
+    @media (max-width: 400px) {
+        flex-direction: column;
+    }
 }
 
 .feedback-wrapper .feedback-group {
     width: 40%;
+
+    @media (max-width: 400px) {
+        width: 100%;
+    }
 }
 
 .feedback-group {
@@ -898,12 +937,25 @@ body {
     border: none;
     outline: none;
     margin-bottom: 25px;
+
+    @media (max-width: 600px) {
+        margin-bottom: 15px;
+    }
+
  }
 
 .feedback-form label {
     font-size: 20px;
     letter-spacing: 0.04em;
     color: black;
+
+    @media (max-width: 600px) {
+        font-size: 16px;
+    }
+
+    @media (max-width: 350px) {
+        font-size: 14px;
+    }
 }
 
 .feedback-form input {
@@ -914,6 +966,14 @@ body {
     width: 100%;
     margin-top: 20px;
     font-size: 16px;
+
+    @media (max-width: 600px) {
+        margin-top: 5px;
+    }
+
+    @media (max-width: 350px) {
+        margin-top: 0;
+    }
 }
 
 .feedback-text {
@@ -922,6 +982,10 @@ body {
     color: black;
     opacity: 0.5;
     text-align: center;
+
+    @media (max-width: 600px) {
+        font-size: 10px;
+    }
 }
 
 .feedback-text span {
@@ -935,6 +999,11 @@ body {
 
 .feedback-form .button {
     margin-top: 25px;
+
+    @media (max-width: 600px) {
+        font-size: 14px;
+        line-height: 2.3;
+    }
 }
 
 .contacts-column {
@@ -1030,4 +1099,8 @@ body {
     text-align: center;
 
     margin: 80px 0 0 0;
+
+    @media (max-width: 1060px) {
+        margin-top: 40px;
+    }
 }
