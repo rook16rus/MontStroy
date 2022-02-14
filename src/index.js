@@ -33,5 +33,5 @@ $('.partners-list').slick({
                 centerMode: true,
             }
         },
-    ]
+]
 });
